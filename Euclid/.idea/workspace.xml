@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4285f287-cede-47d0-8147-2448095aaa36" name="Changes" comment="Inital commit" />
+    <list default="true" id="4285f287-cede-47d0-8147-2448095aaa36" name="Changes" comment="Renamed package">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -191,7 +193,15 @@
       <workItem from="1641993126635" duration="19000" />
       <workItem from="1641993311203" duration="892000" />
       <workItem from="1641994523913" duration="192000" />
+      <workItem from="1642157003208" duration="1441000" />
     </task>
+    <task id="LOCAL−00001" summary="Renamed package">
+      <created>1642157201684</created>
+      <option name="number" value="LOCAL−00001" />
+      <option name="presentableId" value="LOCAL−00001" />
+      <updated>1642157201684</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,6 +220,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Inital commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Inital commit" />
+    <MESSAGE value="Renamed package" />
+    <option name="LAST_COMMIT_MESSAGE" value="Renamed package" />
   </component>
 </project>

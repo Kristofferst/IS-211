@@ -1,19 +1,19 @@
 package IS211.LinkedList;
 
-public class LinkedList<E> {
-    protected Node<E> headLocation;
+public class LinkedList {
+    protected Node headLocation;
     int length;
     int index = -1;
 
-    public void add(E element) {
+    public <E> void add(Object element) {
         Node<E> newNode = new Node<>();
-        newNode.setData(element);
+        newNode.setData((E) element);
         if (length == 0){
             newNode.setNextNode(newNode);
         }
 
         if (length > 0) {
-            Node<E> tmpNext = headLocation.getNextNode();
+            Node tmpNext = headLocation.getNextNode();
             headLocation.setNextNode(newNode);
             newNode.setFormerNode(headLocation);
             newNode.setNextNode(tmpNext);
@@ -24,9 +24,9 @@ public class LinkedList<E> {
         index++;
     }
 
-    public void remove(E element) {
+    public void remove(Object element) {
         if(contains(element)){
-        Node<E> tmpNext = headLocation.getNextNode();
+        Node tmpNext = headLocation.getNextNode();
         goBackward();
         headLocation.setNextNode(tmpNext);
         tmpNext.setFormerNode(headLocation);
@@ -35,14 +35,15 @@ public class LinkedList<E> {
         }
     }
 
-    public boolean contains(E element) {
+    public boolean contains(Object element) {
         boolean looking = true;
         int lookedAt = 0;
         while (looking){
             if (lookedAt == length){
                 looking = false;
             }
-            Node<E> current = headLocation;
+            Node current = headLocation;
+            System.out.println(headLocation.getData());
             if (current.getData().equals(element)){
                 return true;
             }
