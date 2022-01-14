@@ -1,4 +1,4 @@
-package euclid.main;
+package IS211.Euclid;
 
 import static org.junit.Assert.assertEquals;
 import org.junit.jupiter.api.Test;

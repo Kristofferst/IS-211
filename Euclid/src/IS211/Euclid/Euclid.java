@@ -1,4 +1,4 @@
-package euclid.main;
+package IS211.Euclid;
 
 public class Euclid {
     private int count = 0;

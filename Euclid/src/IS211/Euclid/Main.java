@@ -1,4 +1,4 @@
-package euclid.main;
+package IS211.Euclid;
 
 import java.util.Random;
 
